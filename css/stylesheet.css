@@ -1,0 +1,604 @@
+@charset "utf-8";
+/* CSS Document */
+html, body                              { height: 100% }
+.doc-loader                             { position: fixed; left: 0px; top: 0px; width: 100%; height: 100%; z-index: 99999; }
+.doc-loader td                          { text-align: center; vertical-align: middle; }
+.doc-loader td                          { background-color: #000 }
+/*------------------------------------------------------------------------- Home Page Starts --*/
+#homepage                               { background-image: url(../image/textures/black-dots-pattern.png); position: relative; overflow: hidden; height: 120%; }
+.slider-text                            { position: absolute; overflow: hidden; top: 40%; }
+#slidecaption                           { font-family: 'Oswald', sans-serif; font-size: 100px; line-height: 1; text-transform: uppercase; font-weight: 700; overflow: hidden; color: white; }
+.slidedescription                       { font-family: 'Oswald', sans-serif; font-size: 40px; line-height: 1; font-weight: 300; padding-top: 12px; padding-bottom: 12px; margin-top: 12px; }
+.slidedescription-2                     { font-family: 'Oswald', sans-serif; font-size: 60px; line-height: 1; font-weight: 300; padding-bottom: 12px; }
+.social-icons                           { position: absolute; overflow: hidden; top: 75%; }
+/*------------------------------------------------------------------------- Home Page Ends --*/
+#logo                                   { margin-bottom: 30px }
+li.socials                              { padding-top: 12px!important; padding-right: 12px!important; padding-left: 12px!important; }
+li:last-child.socials                   { padding-bottom: 12px!important }
+/*------------------------------------------------------------------------- Navigation Starts --*/
+ul.nav                                  { margin: 0px!important; padding: 0px!important; }
+ul.nav li a                             { text-decoration: none; padding-top: 6px!important; padding-right: 16px!important; padding-bottom: 6px!important; padding-left: 16px!important; -webkit-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; margin: 0px!important; }
+.navbar-inverse .nav-collapse .nav>li>a, .navbar-inverse .nav-collapse .dropdown-menu a
+                                        { color: #fff; font: 300 24px 'Oswald', sans-serif; }
+/*------------------------------------------------------------------------- Navigation Ends --*/
+.pull-center                            { text-align: center }
+.pull-center > .nav                     { float: none; display: inline-block; *display: inline; *zoom: 1; }
+.pull-center > .brand                   { float: none; display: inline-block; *display: inline; *zoom: 1; }
+.pull-center > span                     { float: none; display: inline-block; *display: inline; *zoom: 1; }
+/*-------------------------------------------------------------*/
+.heading-from-left                      { margin-top: -118px; position: absolute; }
+.heading-from-left .bg-blue .container .icon
+                                        { background-image: url(../image/1.png); background-repeat: no-repeat; padding-left: 150px!important; }
+.heading-from-right .bg-blue .container .icon
+                                        { background-image: url(../image/2.png); background-repeat: no-repeat; background-position: right; padding-right: 150px; }
+.heading-from-left .bg-blue             { padding-top: 12px!important; padding-bottom: 12px!important; }
+.heading-from-right .bg-blue            { padding-top: 12px!important; padding-bottom: 12px!important; }
+.heading-from-right                     { margin-top: -118px; position: absolute; }
+.top_box_left, .bot_box_left, .top_box_right, .bot_box_right
+                                        { width: 0px; height: 0px; }
+.top_box_right                          { border-style: solid solid solid dashed; border-width: 0 0 50px 400px; }
+.top_box_left                           { border-width: 50px 0 0 400px; border-style: solid dashed solid solid; }
+.bot_box_right                          { border-width: 0 400px 50px 0; border-style: solid dashed solid solid; }
+.bot_box_left                           { border-width: 50px 400px 0 0; border-style: solid dashed solid solid; }
+.from_right_top                         { border-color: transparent transparent #ff6b12 transparent }
+.from_right_bot                         { border-color: transparent #ff6b12 transparent transparent }
+.from_left_top                          { border-color: transparent transparent transparent #ff6b12 }
+.from_left_bot                          { border-color: #ff6b12 transparent transparent transparent }
+.bg-blue                                { background-color: #ff6b12 }
+.bg-blue h1                             { font-family: 'Oswald', sans-serif; font-size: 90px; line-height: 90px; text-transform: uppercase; font-weight: 700; color: #ffffff; margin-top: 0px; margin-right: 0px; margin-bottom: 2px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 2px; padding-left: 0px; }
+.bg-blue p                              { font-family: 'Oswald', sans-serif; font-size: 40px; line-height: 40px; font-weight: 300; color: #ffffff; padding: 0px; margin: 0px; text-transform: uppercase; }
+/*-------------------------------------------------------------*/
+.span6                                  { /*margin-top: -25px;; position: absolute; */    }
+.span6 .top_box_left, .span6 .bot_box_left, .span6 .top_box_right, .span6 .bot_box_right
+                                        { width: 0px; height: 0px; }
+.span6 .top_box_right                   { border-style: solid solid solid dashed; border-width: 0 0 20px 600px; }
+.span6 .top_box_left                    { border-width: 20px 0 0 600px; border-style: solid dashed solid solid; }
+.span6 .bot_box_right                   { border-width: 0 600px 20px 0; border-style: solid dashed solid solid; }
+.span6 .bot_box_left                    { border-width: 20px 600px 0 0; border-style: solid dashed solid solid; }
+.span6 .from_right_top                  { border-color: transparent transparent #ff6b12 transparent }
+.span6 .from_right_bot                  { border-color: transparent #ff6b12 transparent transparent }
+.span6 .from_left_top                   { border-color: transparent transparent transparent #ff6b12 }
+.span6 .from_left_bot                   { border-color: #ff6b12 transparent transparent transparent }
+.span6 .bg-blue2                        { background-color: #ff6b12; /*padding-top: 12px;*/ ; ; ; }
+.span3                                  { /*margin-top: -25px;; position: absolute; */    }
+.span3 .top_box_left, .span3 .bot_box_left, .span3 .top_box_right, .span3 .bot_box_right
+                                        { width: 0px; height: 0px; }
+.span3 .top_box_right                   { border-style: solid solid solid dashed; border-width: 0 0 20px 400px; }
+.span3 .top_box_left                    { border-width: 20px 0 0 400px; border-style: solid dashed solid solid; }
+.span3 .bot_box_right                   { border-width: 0 400px 20px 0; border-style: solid dashed solid solid; }
+.span3 .bot_box_left                    { border-width: 20px 400px 0 0; border-style: solid dashed solid solid; }
+.span3 .from_right_top                  { border-color: transparent transparent #ff6b12 transparent }
+.span3 .from_right_bot                  { border-color: transparent #ff6b12 transparent transparent }
+.span3 .from_left_top                   { border-color: transparent transparent transparent #ff6b12 }
+.span3 .from_left_bot                   { border-color: #ff6b12 transparent transparent transparent }
+.span3 .bg-blue2                        { background-color: #ff6b12; /*padding-top: 12px;*/ ; ; ; }
+.span4                                  { /*margin-top: -25px;; position: absolute; */    }
+.span4 .top_box_left, .span4 .bot_box_left, .span4 .top_box_right, .span4 .bot_box_right
+                                        { width: 0px; height: 0px; }
+
+.span4 .top_box_right                   { border-style: solid solid solid dashed; border-width: 0 0 20px 300px; }
+.span4 .top_box_left                    { border-width: 20px 0 0 300px; border-style: solid dashed solid solid; }
+.span4 .bot_box_right                   { border-width: 0 300px 20px 0; border-style: solid dashed solid solid; }
+.span4 .bot_box_left                    { border-width: 20px 300px 0 0; border-style: solid dashed solid solid; }
+.span4 .from_right_top                  { border-color: transparent transparent #ff6b12 transparent }
+.span4 .from_right_bot                  { border-color: transparent #ff6b12 transparent transparent }
+.span4 .from_left_top                   { border-color: transparent transparent transparent #ff6b12 }
+.span4 .from_left_bot                   { border-color: #ff6b12 transparent transparent transparent }
+.span4 .bg-blue2                        { background-color: #ff6b12; /*padding-top: 12px;*/ ; ; ; }
+.span9                                  { /*margin-top: -25px;; position: absolute; */    }
+.span9 .top_box_left, .span9 .bot_box_left, .span9 .top_box_right, .span9 .bot_box_right
+                                        { width: 0px; height: 0px; }
+.span9 .top_box_right                   { border-style: solid solid solid dashed; border-width: 0 0 30px 400px; }
+.span9 .top_box_left                    { border-width: 30px 0 0 400px; border-style: solid dashed solid solid; }
+.span9 .bot_box_right                   { border-width: 0 400px 30px 0; border-style: solid dashed solid solid; }
+.span9 .bot_box_left                    { border-width: 30px 400px 0 0; border-style: solid dashed solid solid; }
+.span9 .from_right_top                  { border-color: transparent transparent #ff6b12 transparent }
+.span9 .from_right_bot                  { border-color: transparent #ff6b12 transparent transparent }
+.span9 .from_left_top                   { border-color: transparent transparent transparent #ff6b12 }
+.span9 .from_left_bot                   { border-color: #ff6b12 transparent transparent transparent }
+.span9 .bg-blue2                        { background-color: #ff6b12; /*padding-top: 12px;*/ ; ; ; }
+.blog-headings                          { margin-bottom: 20px }
+.span3 .blog-headings .title            { background-color: #ff6b12; font-size: 28px; font-weight: 300; color: #FFF; text-transform: uppercase; margin: 0px; padding-top: 0px; padding-right: 14px; padding-bottom: 14px; padding-left: 14px; }
+.span9 .blog-headings .title            { background-color: #ff6b12; font-size: 36px; font-weight: 400; color: #FFF; text-transform: uppercase; margin: 0px; padding-top: 0px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px; }
+/*-------------------------------------------------------------*/
+h3.subheading                           { font-family: 'Oswald', sans-serif; font-size: 50px; position: relative; display: inline-block; padding: 10px 30px 8px 30px; background: #ff6b12; line-height: 62px; margin-top: 30px; margin-bottom: 30px; color: #FFF; }
+h3.subheading:before                    { content: ''; width: 0; height: 0; border-top: 40px solid transparent; border-bottom: 40px solid transparent; border-right: 40px solid #ff6b12; position: absolute; left: -40px; top: 0px; }
+h3.subheading:after                     { content: ''; width: 0; height: 0; border-top: 40px solid transparent; border-bottom: 40px solid transparent; border-left: 40px solid #ff6b12; position: absolute; right: -40px; top: 0px; }
+/*-------------------------------------------------------------*/
+.page-contents                          { padding-top: 200px; padding-bottom: 50px; }
+.span1, .span2, .span3, .span4, .span5, .span6, .span7, .span8, .span9, .span10, .span11, .span12
+                                        { padding-bottom: 25px!important }
+/*------------------------------------------------------------------------- About Page Starts --*/
+#about                                  { }
+#about .picture img                     { -webkit-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; }
+#about .picture:hover img               { opacity: 0.8; -moz-opacity: 0.8; -webkit-opacity: 0.8; -khtml-opacity: 0.8; }
+.bar span                               { float: left; padding-left: 20px; font: 300 20px 'Oswald', sans-serif; }
+.accordion-heading                      { font: 400 24px 'Oswald', sans-serif }
+#about .name                            { padding: 0px; margin: 0px; }
+#team                                   { }
+#team .name                             { background-color: #ff6b12; font-weight: 400; color: #FFF; font-size: 24px; padding-top: 12px; padding-right: 12px; padding-bottom: 0px; padding-left: 12px; margin: 0px; }
+#team .name span                        { font-weight: 300!important; font-size: 18px; }
+#team .team-social-icons                { padding-top: 0px; -webkit-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; }
+#team .team-social-icons img:hover      { opacity: 0.8; -moz-opacity: 0.8; -webkit-opacity: 0.8; -khtml-opacity: 0.8; }
+#team .description                      { padding-top: 10px; padding-bottom: 10px; float: left; }
+/*------------------------------------------------------------------------- About Page Ends --*/
+#services                               { }
+#services .titlebar                     { padding-left: 20px; padding-right: 10px; padding-top: 20px; margin: 0px!important; padding-bottom: 0px!important; }
+#services .titlebar .title              { font-weight: 400; color: #FFF; font-size: 30px; line-height: normal; text-transform: uppercase; padding-top: 0px; width: 75%; }
+#services .titlebar img                 { padding-right: 10px; margin: 0px!important; padding-top: 0px; padding-bottom: 0px!important; padding-left: 0px; }
+#services .round-icons                  { padding-bottom: 20px }
+#services .discription                  { padding-top: 20px }
+#services .row .row                     { padding-bottom: 40px }
+#cataloge                               { }
+#cataloge .title                        { background-color: #ff6b12; font-weight: 300; color: #FFF; padding: 20px; font-size: 30px; text-transform: uppercase; }
+#cataloge .pull-right                   { padding-left: 20px }
+#cataloge .pull-left                    { padding-right: 20px }
+/*------------------------------------------------------------------------- Portfolio Starts --*/
+#portfolio                              { }
+#options                                { margin-bottom: 40px; font-family: 'Oswald', sans-serif; font-size: 18px; line-height: normal; }
+#options ul                             { margin: 0px; padding: 0px; }
+#options li                             { display: inline-block; color: #FFF; text-decoration: none; }
+#options li a                           { display: inline-block; padding-right: 20px; padding-top: 10px; padding-bottom: 10px; padding-left: 20px; margin-right: 1px; background: #7d8085; color: #FFF; text-decoration: none; }
+#options li a:hover, #options li a.selected
+                                        { background: #ff6b12; color: #FFF; text-decoration: none; transition: background 0.5s; -moz-transition: background 0.5s; -webkit-transition: background 0.5s; -o-transition: background 0.5s; }
+#portfolio .title                       { background-color: #ff6b12; font-size: 22px; font-weight: 300; color: #FFF; text-transform: uppercase; margin: 0px; padding-top: 14px; padding-right: 14px; padding-bottom: 0px; padding-left: 14px; }
+#portfolio .title span                  { font-size: 18px; text-transform: lowercase!important; }
+#portfolio .gallery li a:hover          { text-decoration: none }
+#portfolio ul li .span3                 { padding-bottom: 10px!important }
+/*------------------------------------------------------------------------- Portfolio Ends --*/
+/*------------------------------------------------------------------------- Contact Starts --*/
+#contact                                { }
+.form-element                           { }
+.form-element label                     { }
+.form-element input.text                { padding-left: 20px; padding-top: 8px; }
+.form-element .textarea                 { padding-left: 20px; padding-top: 8px; }
+.form-element .hightlight               { border: 2px solid #9F1319 }
+.form-element #submit                   { }
+.loading                                { height: 28px; width: 28px; display: none; background-image: url(../image/progress.gif); background-repeat: no-repeat; background-position: 1px; }
+.done                                   { display: none }
+#contact .address img                   { padding-right: 10px }
+/*------------------------------------------------------------------------- Contact Ends --*/
+/*------------------------------------------------------------------------- Catalog Page Starts --*/
+.featurette-divider                     { margin: 40px 0; /* Space out the Bootstrap <hr> more */ }
+.featurette                             { padding-top: 40px; /* Vertically center images part 1: add padding above and below text. */; nowhitespace: afterproperty; nowhitespace: afterproperty; nowhitespace: afterproperty; nowhitespace: afterproperty; overflow: hidden; /* Vertically center images part 2: clear their floats. */; ; ; ; ; }
+.featurette-image                       { margin-top: -40px; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */; ; ; ; ; }
+/* Give some space on the sides of the floated elements so text doesn't run right into it. */
+/*.featurette-image.pull-left             { margin-right: 40px }
+.featurette-image.pull-right            { margin-left: 40px }*/
+/* Thin out the marketing headings */
+.featurette .featurette-heading         { font-family: 'Oswald', sans-serif; font-size: 50px; line-height: 60px; text-transform: uppercase; font-weight: 700; padding-top: 12px; color: #ff6b12; }
+.featurette .featurette-heading span    { color: #fff }
+.featurette .lead                       { font-family: 'Oswald', sans-serif; nowhitespace: afterproperty; font-size: 26px; line-height: 30px; font-weight: 300; padding-bottom: 12px; }
+/*------------------------------------------------------------------------- Catalog Page Ends --*/
+/*------------------------------------------------------------------------- Blog Page Starts --*/
+#blog .post                             { padding-bottom: 30px }
+#blog .post .title                      { padding-right: 10px; padding-bottom: 10px; padding-left: 20px; padding-top: 10px; }
+#blog .post .title p                    { width: 80%; font-weight: 300; color: #FFF; font-size: 30px; line-height: 1; text-transform: uppercase; padding-top: 12px; }
+#blog .post .title .read-more img       { -webkit-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; }
+#blog .post .title .read-more:hover img { opacity: 0.6; -moz-opacity: 0.6; -webkit-opacity: 0.6; -khtml-opacity: 0.6; }
+.icons                                  { margin-left: 0; list-style: none; padding-top: 16px; padding-bottom: 16px; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #CCC; }
+.icons li                               { float: left; line-height: 25px; padding-right: 30px; }
+.icons .cat                             { background-image: url(../image/blog/icons/icon-cat.png); background-repeat: no-repeat; padding-left: 25px; background-position: left center; }
+.icons .date                            { background-image: url(../image/blog/icons/icon-cal.png); background-repeat: no-repeat; padding-left: 25px; background-position: left center; }
+.icons .comment                         { background-image: url(../image/blog/icons/icon-comment.png); background-repeat: no-repeat; padding-left: 25px; background-position: left center; }
+.icons .user                            { background-image: url(../image/blog/icons/icon-user.png); background-repeat: no-repeat; padding-left: 25px; background-position: left center; }
+#blog .single-post                      { padding-bottom: 30px }
+#blog .single-post .strip               { background-color: #ff6b12; padding: 10px; text-transform: uppercase; }
+#blog .single-post .title               { width: 80%; font-weight: 300; color: #FFF; font-size: 26px; line-height: normal; padding-left: 10px; }
+.about-author                           { padding-bottom: 30px }
+.blog-comments                          { padding-bottom: 30px }
+.blog-categories                        { }
+.blog-categories ul                     { margin-bottom: 30px }
+.blog-categories ul li                  { margin: 0px; padding-top: 6px; padding-right: 0px; padding-bottom: 6px; padding-left: 0px; }
+.blog-categories ul li a                { text-decoration: none }
+.blog-categories ul li a:hover          { text-decoration: none; color: #ccc; }
+.blog-categories ul li a:active         { text-decoration: none; color: #ccc; }
+.blog-recent-posts .post2               { padding-bottom: 30px }
+.blog-recent-posts .post2 .strip2       { background-color: #ff6b12; padding: 10px!important; text-transform: uppercase; }
+.blog-recent-posts .post2 .title2       { width: 80%; font-weight: 300; color: #FFF; font-size: 20px!important; line-height: 30px!important; padding-left: 10px; margin: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; }
+#blog .post2 .read-more2 img            { -webkit-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; }
+#blog .post2 .read-more2:hover img      { opacity: 0.6; -moz-opacity: 0.6; -webkit-opacity: 0.6; -khtml-opacity: 0.6; }
+.icons2                                 { margin-left: 0; list-style: none; padding-top: 12px; padding-bottom: 12px; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #CCC; }
+.icons2 li                              { float: left; line-height: 20px; padding-right: 20px; font-size: 14px; }
+.icons2 .cat                            { background-image: url(../image/blog/icons/icon-cat.png); background-repeat: no-repeat; padding-left: 25px; background-position: left center; }
+.icons2 .date                           { background-image: url(../image/blog/icons/icon-cal.png); background-repeat: no-repeat; padding-left: 25px; background-position: left center; }
+.icons2 .comment                        { background-image: url(../image/blog/icons/icon-comment.png); background-repeat: no-repeat; padding-left: 25px; background-position: left center; }
+.icons2 .user                           { background-image: url(../image/blog/icons/icon-user.png); background-repeat: no-repeat; padding-left: 25px; background-position: left center; }
+.blog-archieve                          { }
+.blog-archieve ul                       { margin-bottom: 30px }
+.blog-archieve ul li                    { margin: 0px; padding-top: 6px; padding-right: 0px; padding-bottom: 6px; padding-left: 0px; }
+.blog-archieve ul li a                  { text-decoration: none }
+.blog-archieve ul li a:hover            { text-decoration: none; color: #000; }
+.blog-archieve ul li a:active           { text-decoration: none }
+.related-posts                          { padding-bottom: 10px }
+.related-posts .post2 .strip2           { background-color: #ff6b12; padding: 10px!important; text-transform: uppercase; }
+.related-posts .post2 .title2           { width: 80%; font-weight: 300; color: #FFF; font-size: 20px!important; line-height: 30px!important; padding-left: 10px; margin: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; }
+/*------------------------------------------------------------------------- Blog Page Ends --*/
+/*--------------------------------------------------------
+Parallax
+--------------------------------------------------------*/
+#parallax1, #parallax2, #parallax3, #parallax4, #parallax5, #parallax6
+                                        { width: 100%; height: 650px; background-color: #cccccc; position: relative; overflow: hidden; }
+#parallax1 .vertical-text, #parallax2 .vertical-text, #parallax3 .vertical-text, #parallax4 .vertical-text, #parallax5 .vertical-text, #parallax6 .vertical-text, #parallax1 .pattern, #parallax2 .pattern, #parallax3 .pattern, #parallax4 .pattern, #parallax5 .pattern, #parallax6 .pattern
+                                        { height: 650px }
+#parallax1 .container, #parallax2 .container, #parallax3 .container, #parallax4 .container, #parallax5 .container, #parallax6 .container
+                                        { display: table; position: relative; z-index: 200; }
+.vertical-text                          { display: table-cell; vertical-align: middle; text-align: center; }
+.pattern                                { width: 100%; position: absolute; background-image: url(../image/textures/black-dots-pattern.png); }
+/*Parallax1------------------------------------------*/
+.bg1                                    { width: 100%; height: 100%; margin: 0 auto; position: absolute; background-size: 110%; background-attachment: fixed; background-image: url(../image/parallax/1.jpg); background-repeat: repeat-y; background-position: 50% 50%; }
+p.parallax-heading                      { font-family: font-family: 'Oswald', sans-serif; font-weight: 700; font-size: 70px; text-transform: uppercase; color: #FFF; text-align: center; margin-bottom: 30px; width: auto; line-height: 1; }
+p.parallax-quote                        { font-family: font-family: 'Oswald', sans-serif; nowhitespace: afterproperty; nowhitespace: afterproperty; nowhitespace: afterproperty; font-weight: 400; font-size: 40px; line-height: 1; /*margin-bottom: 30px;*/ color: white; text-align: center; text-transform: uppercase; width: auto; z-index: 200; margin: 0 10% 0 10%; ; ; ; }
+p.parallax-author                       { font-family: font-family: 'Oswald', sans-serif; font-weight: 400; background: url(../images/quote.png) left no-repeat; width: auto; font-size: 36px; text-align: center; color: white; text-transform: uppercase; position: relative; margin-top: 20px; z-index: 200; font-style: italic; }
+/*Parallax2------------------------------------------*/
+.bg2                                    { background: url(../image/parallax/2.jpg) top center fixed repeat-y; width: 100%; height: 100%; margin: 0 auto; position: absolute; background-size: 120%; }
+div.twitter-icon                        { padding-bottom: 30px; text-align: center; margin-top: -60px; }
+/*Parallax3------------------------------------------*/
+#parallax3 .heading                     { text-align: center; margin-bottom: 60px; font-family: 'Oswald', sans-serif; font-weight: 700; font-size: 70px; color: #FFF; text-transform: uppercase; }
+.bg3                                    { background: url(../image/parallax/3.jpg) 50% 50% fixed repeat-y; width: 100%; height: 100%; margin: 0 auto; position: absolute; background-size: 110%; }
+.clients                                { text-align: center }
+.clients li                             { display: inline; margin: 0 15px 0 15px; height: 50px; opacity: 1; }
+.clients li:hover                       { opacity: 0.8 }
+/*Parallax4------------------------------------------*/
+.bg4                                    { width: 100%; height: 100%; margin: 0 auto; position: absolute; background-size: 110%; background-attachment: fixed; background-image: url(../image/parallax/4.jpg); background-repeat: repeat-y; background-position: 50% 50%; }
+p.parallax-quote                        { font-family: font-family: 'Oswald', sans-serif; nowhitespace: afterproperty; nowhitespace: afterproperty; nowhitespace: afterproperty; font-weight: 400; font-size: 50px; line-height: 1; /*margin-bottom: 30px;*/ color: white; text-align: center; text-transform: uppercase; width: auto; z-index: 200; margin: 0 10% 0 10%; ; ; ; }
+p.parallax-author                       { font-family: font-family: 'Oswald', sans-serif; font-weight: 400; background: url(../images/quote.png) left no-repeat; width: auto; font-size: 32px; text-align: center; color: white; text-transform: uppercase; position: relative; margin-top: 20px; z-index: 200; font-style: italic; }
+/*Parallax5------------------------------------------*/
+.bg5                                    { width: 100%; height: 100%; margin: 0 auto; position: absolute; background-size: 110%; background-attachment: fixed; background-image: url(../image/parallax/5.jpg); background-repeat: repeat-y; background-position: 50% 50%; }
+p.parallax-line1                        { font-family: font-family: 'Oswald', sans-serif; nowhitespace: afterproperty; nowhitespace: afterproperty; nowhitespace: afterproperty; font-weight: 700; font-size: 80px; text-transform: uppercase; color: #FFF; /*line-height: 1;*/ margin-bottom: 30px; width: auto; float: left; ; ; ; }
+p.parallax-line2                        { font-family: font-family: 'Oswald', sans-serif; nowhitespace: afterproperty; nowhitespace: afterproperty; nowhitespace: afterproperty; font-weight: 400; font-size: 50px; line-height: 1; /*margin-bottom: 30px;*/ color: white; text-transform: uppercase; width: auto; z-index: 200; float: left; ; ; ; }
+/*Parallax6------------------------------------------*/
+.bg6                                    { width: 100%; height: 100%; margin: 0 auto; position: absolute; background-size: 110%; background-attachment: fixed; background-image: url(../image/parallax/6.jpg); background-repeat: repeat-y; background-position: 50% 50%; }
+p.parallax-line1                        { font-family: font-family: 'Oswald', sans-serif; nowhitespace: afterproperty; nowhitespace: afterproperty; nowhitespace: afterproperty; font-weight: 700; font-size: 80px; text-transform: uppercase; color: #FFF; /*line-height: 1;*/ margin-bottom: 30px; width: auto; float: left; ; ; ; }
+p.parallax-line2                        { font-family: font-family: 'Oswald', sans-serif; nowhitespace: afterproperty; nowhitespace: afterproperty; nowhitespace: afterproperty; font-weight: 400; font-size: 50px; line-height: 1; /*margin-bottom: 30px;*/ color: white; text-transform: uppercase; width: auto; z-index: 200; float: left; ; ; ; }
+/*------------------------------------------------------------------------- ToTop Starts */
+.scrollup                               { width: 50px; height: 50px; position: fixed; bottom: 30px; right: 30px; display: none; text-indent: -9999px; background: url('../image/to-top.png') no-repeat; }
+.scrollup:hover                         { opacity: 0.7 }
+/*------------------------------------------------------------------------- ToTop ends */
+/*------------------------------------------------------------------------- Overlayzoom Starts */
+.overlayzoom                            { position: relative; display: block; margin: 0; text-decoration: none; }
+.overlayzoom span.zoom                  { position: absolute; nowhitespace: afterproperty; nowhitespace: afterproperty; nowhitespace: afterproperty; top: 0; right: 0; width: 40px; height: 40px; -webkit-transition: all 0.5s ease; -moz-transition: all 0.5s ease; -o-transition: all 0.5s ease; transition: all 0.5s ease; /* Fallback for web browsers that doesn't support RGBa */ background: rgb(255, 107, 18); /* RGBa with 0.6 opacity */ background: rgba(255, 107, 18, 0.6); ; ; ; }
+.overlayzoom span.zoom span             { position: absolute; left: 0; top: 0; width: 100%; height: 100%; background-image: url(../image/hover/zoom_icon.png); background-repeat: no-repeat; background-position: 50% 50%; }
+.overlayzoom:hover span.zoom, .overlayzoom:focus span.zoom
+                                        { width: 100%; height: 100%; }
+/*------------------------------------------------------------------------- Overlayzoom Starts */
+/*------------------------------------------------------------------------- Overlay readmore Starts */
+.overlayreadmore                        { position: relative; display: block; margin: 0; text-decoration: none; }
+.overlayreadmore span.readmore          { position: absolute; nowhitespace: afterproperty; nowhitespace: afterproperty; nowhitespace: afterproperty; top: 0; right: 0; width: 35px; height: 35px; -webkit-transition: all 0.5s ease; -moz-transition: all 0.5s ease; -o-transition: all 0.5s ease; transition: all 0.5s ease; /* Fallback for web browsers that doesn't support RGBa */ background: rgb(255, 107, 18); /* RGBa with 0.6 opacity */ background: rgba(255, 107, 18, 0.6); ; ; ; }
+.overlayreadmore span.readmore span     { position: absolute; left: 0; top: 0; width: 100%; height: 100%; background-image: url(../image/hover/arrow_icon.png); background-repeat: no-repeat; background-position: 50% 50%; }
+.overlayreadmore:hover span.readmore, .overlayreadmore:focus span.readmore
+                                        { width: 100%; height: 100%; }
+/*------------------------------------------------------------------------- Overlay readmore Starts */
+/*------------------------------------------------------------------------- Video Starts */
+.videoWrapper                           { position: relative; nowhitespace: afterproperty; nowhitespace: afterproperty; nowhitespace: afterproperty; padding-bottom: 56.25%; /* 16: 9 */; padding-top: 25px; height: 0; margin: 60px; ; ; ; }
+.videoWrapper iframe                    { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+/*------------------------------------------------------------------------- Video Ends */
+/*------------------------------------------------------------------------- Float/Align Starts */
+.center                                 { text-align: center }
+.f-left                                 { float: left }
+.f-right                                { float: right }
+/*------------------------------------------------------------------------- Float/Align Ends */
+/*------------------------------------------------------------------------- BG & Textures Starts-------------*/
+.white-bg                               { background-color: #FFF!important; }
+.black-bg                               { background-color: #000000!important; }
+.yellow-bg                              { background-color: #7d8085!important; }
+.light-grey-bg                          { background-color: #e8e8e8!important; }
+.black-fade                             { background: rgb(0, 0, 0)!important; background: rgba(0, 0, 0, 0.9)!important; }
+.white-fade                             { background: rgb(256, 256, 256)!important; background: rgba(256, 256, 256, 0.9)!important; }
+/*---------White Dotted Textures Starts-------------*/
+.dotted-bg                              { background-image: url(../image/textures/white-dots-pattern.png)!important }
+/*---------White Dotted Textures Starts-------------*/
+/*---------Light Textures 1 Starts-------------*/
+.light-texture-1                        { background-image: url(../image/textures/squairy_light.png)!important; background-repeat: repeat!important; }
+/*---------Light Textures 1 Ends-------------*/
+/*---------Light Textures 2 Starts-------------*/
+.light-texture-2                        { background-image: url(../image/textures/cream_pixels.png)!important; background-repeat: repeat!important; }
+/*---------Light Textures 2 Ends-------------*/
+/*---------Light Textures 3 Starts-------------*/
+.light-texture-3                        { background-image: url(../image/textures/subtle_white_feathers.png)!important; background-repeat: repeat!important; }
+/*---------Light Textures 3 Ends-------------*/
+/*---------Dark Textures 1 Starts-------------*/
+.dark-texture-1                         { background-image: url(../image/textures/simple_dashed.png); background-repeat: repeat; color: #fff; }
+.dark-texture-1 strong, .dark-texture-1 h2, .dark-texture-1 h3, .dark-texture-1 h4, .dark-texture-1 h5, .dark-texture-1 h6
+                                        { color: #fff }
+.dark-texture-1 a, .dark-texture-1 a:visited
+                                        { color: #fff; text-decoration: underline; outline: 0; }
+.dark-texture-1 a:hover, .dark-texture-1 a:focus
+                                        { color: #fff; text-decoration: none; }
+.dark-texture-1 p a, .dark-texture-1 p a:visited
+                                        { line-height: inherit }
+/*---------Dark Textures 1 Ends-------------*/
+/*---------Dark Textures 2 Starts-------------*/
+.dark-texture-2                         { background-image: url(../image/textures/dark_dotted2.png); background-repeat: repeat; color: #fff; }
+.dark-texture-2 strong, .dark-texture-2 h1, .dark-texture-2 h2, .dark-texture-2 h3, .dark-texture-2 h4, .dark-texture-2 h5, .dark-texture-2 h6
+                                        { color: #fff }
+.dark-texture-2 a, .dark-texture-2 a:visited
+                                        { color: #fff; text-decoration: underline; outline: 0; }
+.dark-texture-2 a:hover, .dark-texture-2 a:focus
+                                        { color: #fff; text-decoration: none; }
+.dark-texture-2 p a, .dark-texture-2 p a:visited
+                                        { line-height: inherit }
+/*---------Dark Textures 2 Ends-------------*/
+/*---------Dark Textures 3 Starts-------------*/
+.dark-texture-3                         { background-image: url(../image/textures/blackorchid.png); background-repeat: repeat; color: #fff; }
+.dark-texture-3 strong, .dark-texture-3 h1, .dark-texture-3 h2, .dark-texture-3 h3, .dark-texture-3 h4, .dark-texture-3 h5, .dark-texture-3 h6
+                                        { color: #fff }
+.dark-texture-3 a, .dark-texture-3 a:visited
+                                        { color: #fff; text-decoration: underline; outline: 0; }
+.dark-texture-3 a:hover, .dark-texture-3 a:focus
+                                        { color: #fff; text-decoration: none; }
+.dark-texture-3 p a, .dark-texture-3 p a:visited
+                                        { line-height: inherit }
+/*---------Dark Textures 3 Ends-------------*/
+/*---------Dark Textures 4 Starts-------------*/
+.dark-texture-4                         { background-image: url(../image/textures/twinkle_twinkle.png); background-repeat: repeat; color: #fff; }
+.dark-texture-4 strong, .dark-texture-4 h1, .dark-texture-4 h2, .dark-texture-4 h3, .dark-texture-4 h4, .dark-texture-4 h5, .dark-texture-4 h6
+                                        { color: #fff }
+.dark-texture-4 a, .dark-texture-4 a:visited
+                                        { color: #fff; text-decoration: underline; outline: 0; }
+.dark-texture-4 a:hover, .dark-texture-4 a:focus
+                                        { color: #fff; text-decoration: none; }
+.dark-texture-4 p a, .dark-texture-4 p a:visited
+                                        { line-height: inherit }
+/*---------Dark Textures 4 Ends-------------*/
+/*------------------------------------------------------------------------- BG & Textures Ends-------------*/
+/*------------------------------------------------------------------------- Media Queries Starts-------------*/
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width:959px)                             { 
+	
+}
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width:768px) and (max-width:959px)                             { 
+	#slidecaption                           { font-size: 60px; line-height: 60px; }
+	.slidedescription                       { font-size: 30px; line-height: 28px; padding-top: 10px; padding-bottom: 10px; }
+	.slidedescription-2                     { font-family: 'Oswald', sans-serif; font-size: 36px; line-height: 36px; font-weight: 300; padding-bottom: 14px; }
+	.view a.info                            { padding-top: 25px!important }
+	input[type="text"], input[type="password"], input[type="email"], textarea, select
+	                                        { width: 340px }
+	/*-------------------------------------------------------------*/
+	h3.subheading                           { font-family: 'Oswald', sans-serif; font-size: 46px; position: relative; display: inline-block; padding: 10px 30px 8px 30px; background: #ff6b12; line-height: 50px; margin-top: 30px; margin-bottom: 30px; color: #FFF; }
+	h3.subheading:before                    { content: ''; width: 0; height: 0; border-top: 26px solid transparent; border-bottom: 42px solid transparent; border-right: 42px solid #ff6b12; position: absolute; left: -42px; top: 0px; }
+	h3.subheading:after                     { content: ''; width: 0; height: 0; border-top: 26px solid transparent; border-bottom: 42px solid transparent; border-left: 42px solid #ff6b12; position: absolute; right: -42px; top: 0px; }
+	#parallax4                              { width: 100%; height: 550px; }
+	.videoWrapper                           { position: relative; padding-bottom: 56%; /* 16: 9 */; padding-top: 25px; height: 0; margin: 30px; }
+	.videoWrapper iframe                    { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+	/*-------------------------------------------------------------*/
+}
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width:767px)                             { 
+	.slider-text        { padding-left: 10%; padding-right: 10%; }
+	#slidecaption       { font-size: 40px; line-height: 1; }
+	.slidedescription   { font-size: 30px; line-height: 1; padding-top: 6px; padding-bottom: 6px; }
+	.slidedescription-2 { font-family: 'Oswald', sans-serif; font-size: 36px; line-height: 36px; font-weight: 300; padding-bottom: 14px; }
+	/*.featurette h2                   { font-family: 'Oswald', sans-serif; font-size: 30px; font-weight: 300; line-height: 1.2!important; }
+					.featurette p                       { font-family: 'Oswald', sans-serif; font-size: 20px!important; line-height: 1.2!important; }*/
+	/*-------------------------------------------------------------*/
+	h3.subheading       { font-family: 'Oswald', sans-serif; font-size: 30px; position: relative; display: inline-block; padding: 10px 30px 8px 30px; background: #ff6b12; line-height: 30px; margin-top: 30px; margin-bottom: 30px; color: #FFF; }
+	h3.subheading:before
+	                    { content: ''; width: 0; height: 0; border-top: 18px solid transparent; border-bottom: 30px solid transparent; border-right: 30px solid #ff6b12; position: absolute; left: -30px; top: 0px; }
+	h3.subheading:after { content: ''; width: 0; height: 0; border-top: 18px solid transparent; border-bottom: 30px solid transparent; border-left: 30px solid #ff6b12; position: absolute; right: -30px; top: 0px; }
+	#parallax4          { width: 100%; height: 550px!important; }
+	.videoWrapper       { position: relative; padding-bottom: 56%; /* 16: 9 */; padding-top: 25px; height: 0; margin: 30px; }
+	.videoWrapper iframe
+	                    { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+	/*-------------------------------------------------------------*/
+}
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width:480px) and (max-width:767px)                             { 
+	ul.nav                                  { margin: 0px!important; padding: 0px!important; }
+	ul.nav li a                             { text-decoration: none; padding-top: 4px!important; padding-right: 20px!important; padding-bottom: 4px!important; padding-left: 20px!important; -webkit-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; margin: 0px!important; }
+	.navbar-inverse .nav-collapse .nav>li>a, .navbar-inverse .nav-collapse .dropdown-menu a
+	                                        { color: #fff; font: 300 18px 'Oswald', sans-serif; }
+	.slider-text                            { padding-left: 10%; padding-right: 10%; bottom: 20!important; }
+	#slidecaption                           { font-size: 40px; line-height: 1; }
+	.slidedescription                       { font-size: 26px; line-height: 1; padding-top: 2px; padding-bottom: 2px; }
+	.slidedescription-2                     { font-family: 'Oswald', sans-serif; font-size: 36px; line-height: 36px; font-weight: 300; padding-bottom: 14px; }
+	.social-icons                           { display: none }
+	section                                 { padding: 20px!important }
+	.lead                                   { font-size: 26px; margin-bottom: 30px!important; }
+	.page-header                            { position: relative; padding-top: 90px; padding-bottom: 20px; }
+	.page-banner                            { background-image: url(../images/textures/white-dots-pattern.png); padding-top: 20px; padding-bottom: 20px; }
+	.page-contents                          { padding-top: 150px; padding-bottom: 30px; }
+	.heading-from-left{ margin-left:-20px!important;}
+	.heading-from-right{ margin-left:-20px!important;}
+	
+	.heading-from-left .bg-blue .container .icon
+	                                        { background-image: none!important; padding-left: 20px!important; }
+	.heading-from-right .bg-blue .container .icon
+	                                        { background-image: none!important; padding-right: 20px; }
+	.heading-from-left .bg-blue             { padding-top: 10px!important; padding-bottom: 10px!important; }
+	.heading-from-right .bg-blue            { padding-top: 10px!important; padding-bottom: 10px!important; }
+	.bg-blue h1                             { font-family: 'Oswald', sans-serif; font-size: 50px; line-height: 50px; text-transform: uppercase; font-weight: 700; color: #ffffff; margin-top: 0px; margin-right: 0px; margin-bottom: 2px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 2px; padding-left: 0px; }
+	.bg-blue p                              { font-family: 'Oswald', sans-serif; font-size: 20px; line-height: 20px; font-weight: 300; color: #ffffff; padding: 0px; margin: 0px; text-transform: uppercase; }
+	/*-------------------------------------------------------------*/
+	h3.subheading                           { font-family: 'Oswald', sans-serif; font-size: 30px; position: relative; display: inline-block; padding: 10px 30px 8px 30px; background: #ff6b12; line-height: 30px; margin-top: 30px; margin-bottom: 30px; color: #FFF; }
+	h3.subheading:before                    { content: ''; width: 0; height: 0; border-top: 18px solid transparent; border-bottom: 30px solid transparent; border-right: 30px solid #ff6b12; position: absolute; left: -30px; top: 0px; }
+	h3.subheading:after                     { content: ''; width: 0; height: 0; border-top: 18px solid transparent; border-bottom: 30px solid transparent; border-left: 30px solid #ff6b12; position: absolute; right: -30px; top: 0px; }
+	/*-------------------------------------------------------------*/
+	/*h1                                      { font-size: 28px; line-height: normal; margin-bottom: 15px; }
+					h2                                      { font-size: 24px; line-height: normal; margin-bottom: 10px; }
+					h3                                      { font-size: 20px; line-height: normal; margin-bottom: 8px; }
+					h4                                      { font-size: 18px; line-height: normal; margin-bottom: 4px; }
+					h5                                      { font-size: 16px; line-height: normal; }
+					h6                                      { font-size: 14px; line-height: normal; }*/
+	.large-padding                          { padding: 20px }
+	.medium-padding                         { padding: 15px }
+	.small-padding                          { padding: 10px }
+	.large-t-b-padding                      { padding-top: 20px; padding-bottom: 20px; }
+	.medium-t-b-padding                     { padding-top: 15px; padding-bottom: 15px; }
+	.small-t-b-padding                      { padding-top: 10px; padding-bottom: 10px; }
+	.large-top-padding                      { padding-top: 20px }
+	.medium-top-padding                     { padding-top: 15px }
+	.small-top-padding                      { padding-top: 10px }
+	.large-bottom-padding                   { padding-bottom: 20px }
+	.medium-bottom-padding                  { padding-bottom: 15px }
+	.small-bottom-padding                   { padding-bottom: 10px }
+	.large-left-padding                     { padding-left: 50px }
+	.medium-left-padding                    { padding-left: 15px }
+	.small-left-padding                     { padding-left: 10px }
+	.large-right-padding                    { padding-right: 50px }
+	.medium-right-padding                   { padding-right: 15px }
+	.small-right-padding                    { padding-right: 10px }
+	#options                                { margin-bottom: 20px }
+	#options li a                           { display: inline-block; padding-right: 12px; padding-top: 10px; padding-bottom: 10px; padding-left: 12px; margin-right: 1px; background: #7d8085; color: #FFF; text-decoration: none; }
+	input[type="text"], input[type="password"], input[type="email"], textarea, select
+	                                        { width: 394px }
+	.view a.info                            { padding-top: 80px!important }
+	#parallax4                              { width: 100%; height: 600px; }
+	.videoWrapper                           { position: relative; padding-bottom: 56.25%; /* 16: 9 */; padding-top: 25px; height: 0; margin: 30px; }
+	.videoWrapper iframe                    { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+	.featurette                             { height: auto; padding: 0; }
+	.featurette-image.pull-left, .featurette-image.pull-right
+	                                        { display: block; float: none; max-width: 80%; margin: 0 auto 20px; }
+	.featurette .lead                       { font-size: 22px!important; line-height: 1.2!important; }
+	/*Parallax1------------------------------------------*/
+	.bg1                                    { width: 100%; height: 100%; margin: 0 auto; position: absolute; background-size: 110%; background-attachment: fixed; background-image: url(../image/parallax/1.jpg); background-repeat: repeat-y; background-position: 50% 50%; }
+	p.parallax-heading                      { font-family: font-family: 'Oswald', sans-serif; font-weight: 700; font-size: 30px; text-transform: uppercase; color: #FFF; text-align: center; margin-bottom: 30px; width: auto; line-height: 1; }
+	p.parallax-quote                        { font-family: font-family: 'Oswald', sans-serif; font-weight: 400; font-size: 26px; line-height: 1; /*margin-bottom: 30px; */ color: white; text-align: center; text-transform: uppercase; width: auto; z-index: 200; margin: 0 10% 0 10%; }
+	p.parallax-author                       { font-family: font-family: 'Oswald', sans-serif; font-weight: 400; background: url(../images/quote.png) left no-repeat; width: auto; font-size: 16px; text-align: center; color: white; text-transform: uppercase; position: relative; margin-top: 20px; z-index: 200; font-style: italic; }
+	/*Parallax2------------------------------------------*/
+	.bg2                                    { background: url(../image/parallax/2.jpg) top center fixed repeat-y; width: 100%; height: 100%; margin: 0 auto; position: absolute; background-size: 120%; }
+	div.twitter-icon                        { padding-bottom: 10px; text-align: center; margin-top: -60px; }
+	/*Parallax3------------------------------------------*/
+	#parallax3 .heading                     { text-align: center; margin-bottom: 50px; font-family: 'Oswald', sans-serif; font-weight: 700; font-size: 40px; color: #FFF; text-transform: uppercase; }
+	.bg3                                    { background: url(../image/parallax/3.jpg) 50% 50% fixed repeat-y; width: 100%; height: 100%; margin: 0 auto; position: absolute; background-size: 110%; }
+	.clients                                { text-align: center }
+	.clients li                             { display: inline; margin: 0 15px 0 15px; height: 50px; opacity: 1; }
+	.clients li:hover                       { opacity: 0.8 }
+	/*Parallax4------------------------------------------*/
+	.bg4                                    { width: 100%; height: 100%; margin: 0 auto; position: absolute; background-size: 110%; background-attachment: fixed; background-image: url(../image/parallax/4.jpg); background-repeat: repeat-y; background-position: 50% 50%; }
+	p.parallax-heading                      { font-family: font-family: 'Oswald', sans-serif; font-weight: 700; font-size: 40px; text-transform: uppercase; color: #FFF; text-align: center; margin-bottom: 20px; width: auto; line-height: 1; }
+	p.parallax-quote                        { font-family: font-family: 'Oswald', sans-serif; font-weight: 400; font-size: 30px; line-height: 1; /*margin-bottom: 30px; */ color: white; text-align: center; text-transform: uppercase; width: auto; z-index: 200; margin: 0 10% 0 10%; }
+	p.parallax-author                       { font-family: font-family: 'Oswald', sans-serif; font-weight: 400; background: url(../images/quote.png) left no-repeat; width: auto; font-size: 26px; text-align: center; color: white; text-transform: uppercase; position: relative; margin-top: 12px; z-index: 200; font-style: italic; }
+	/*Parallax5------------------------------------------*/
+	.bg5                                    { width: 100%; height: 100%; margin: 0 auto; position: absolute; background-size: 110%; background-attachment: fixed; background-image: url(../image/parallax/5.jpg); background-repeat: repeat-y; background-position: 50% 50%; }
+	p.parallax-line1                        { font-family: font-family: 'Oswald', sans-serif; font-weight: 700; font-size: 40px; text-transform: uppercase; color: #FFF; line-height: 1; margin-bottom: 20px; width: auto; float: left; }
+	p.parallax-line2                        { font-family: font-family: 'Oswald', sans-serif; font-weight: 400; font-size: 30px; line-height: 1; /*margin-bottom: 30px; */ color: white; text-transform: uppercase; width: auto; z-index: 200; float: left; }
+	.videoWrapper                           { position: relative; padding-bottom: 56.25%; /* 16: 9 */; padding-top: 25px; height: 0; margin: 30px; }
+	.featurette-heading                     { padding-top: 20px }
+}
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width:479px)                             { 
+	/*------------------------------------------------------------------------- Navigation Starts --*/
+	ul.nav                                  { margin: 0px!important; padding: 0px!important; }
+	ul.nav li a                             { text-decoration: none; padding-top: 4px!important; padding-right: 20px!important; padding-bottom: 4px!important; padding-left: 20px!important; -webkit-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; margin: 0px!important; }
+	.navbar-inverse .nav-collapse .nav>li>a, .navbar-inverse .nav-collapse .dropdown-menu a
+	                                        { color: #fff; font: 300 18px 'Oswald', sans-serif; }
+	.slider-text                            { padding-left: 10%; padding-right: 10%; bottom: 20!important; }
+	#slidecaption                           { font-size: 30px; line-height: 1; }
+	.slidedescription                       { font-size: 20px; line-height: 1; padding-top: 2px; padding-bottom: 2px; }
+	.social-icons                           { display: none }
+	section                                 { padding: 20px!important }
+	.lead                                   { font-size: 22px; margin-bottom: 20px!important; }
+	.page-header                            { position: relative; padding-top: 90px; padding-bottom: 20px; }
+	.page-banner                            { background-image: url(../images/textures/white-dots-pattern.png); padding-top: 20px; padding-bottom: 20px; }
+	.page-contents                          { padding-top: 150px; padding-bottom: 30px; }
+	
+	.heading-from-left{ margin-left:-20px!important;}
+	.heading-from-right{ margin-left:-20px!important;}
+	
+	
+	.heading-from-left .bg-blue .container .icon
+	                                        { background-image: none!important; padding-left: 20px!important; }
+	.heading-from-right .bg-blue .container .icon
+	                                        { background-image: none!important; padding-right: 20px; }
+	.heading-from-left .bg-blue             { padding-top: 10px!important; padding-bottom: 10px!important; }
+	.heading-from-right .bg-blue            { padding-top: 10px!important; padding-bottom: 10px!important; }
+	.bg-blue h1                             { font-family: 'Oswald', sans-serif; font-size: 40px; line-height: 40px; text-transform: uppercase; font-weight: 700; color: #ffffff; margin-top: 0px; margin-right: 0px; margin-bottom: 2px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 2px; padding-left: 0px; }
+	.bg-blue p                              { font-family: 'Oswald', sans-serif; font-size: 24px; line-height: 24px; font-weight: 300; color: #ffffff; padding: 0px; margin: 0px; text-transform: uppercase; }
+	/*-------------------------------------------------------------*/
+	h3.subheading                           { font-family: 'Oswald', sans-serif; font-size: 30px; position: relative; display: inline-block; padding: 10px 30px 8px 30px; background: #ff6b12; line-height: 30px; margin-top: 30px; margin-bottom: 30px; color: #FFF; }
+	h3.subheading:before                    { content: ''; width: 0; height: 0; border-top: 18px solid transparent; border-bottom: 30px solid transparent; border-right: 30px solid #ff6b12; position: absolute; left: -30px; top: 0px; }
+	h3.subheading:after                     { content: ''; width: 0; height: 0; border-top: 18px solid transparent; border-bottom: 30px solid transparent; border-left: 30px solid #ff6b12; position: absolute; right: -30px; top: 0px; }
+	/*-------------------------------------------------------------*/
+	/*h1                                      { font-size: 28px; line-height: normal; margin-bottom: 15px; }
+					h2                                      { font-size: 24px; line-height: normal; margin-bottom: 10px; }
+					h3                                      { font-size: 20px; line-height: normal; margin-bottom: 8px; }
+					h4                                      { font-size: 18px; line-height: normal; margin-bottom: 4px; }
+					h5                                      { font-size: 16px; line-height: normal; }
+					h6                                      { font-size: 14px; line-height: normal; }*/
+	.large-padding                          { padding: 20px }
+	.medium-padding                         { padding: 15px }
+	.small-padding                          { padding: 10px }
+	.large-t-b-padding                      { padding-top: 20px; padding-bottom: 20px; }
+	.medium-t-b-padding                     { padding-top: 15px; padding-bottom: 15px; }
+	.small-t-b-padding                      { padding-top: 10px; padding-bottom: 10px; }
+	.large-top-padding                      { padding-top: 20px }
+	.medium-top-padding                     { padding-top: 15px }
+	.small-top-padding                      { padding-top: 10px }
+	.large-bottom-padding                   { padding-bottom: 20px }
+	.medium-bottom-padding                  { padding-bottom: 15px }
+	.small-bottom-padding                   { padding-bottom: 10px }
+	.large-left-padding                     { padding-left: 50px }
+	.medium-left-padding                    { padding-left: 15px }
+	.small-left-padding                     { padding-left: 10px }
+	.large-right-padding                    { padding-right: 50px }
+	.medium-right-padding                   { padding-right: 15px }
+	.small-right-padding                    { padding-right: 10px }
+	#options                                { margin-bottom: 20px }
+	#options li a                           { display: inline-block; padding-right: 12px; padding-top: 10px; padding-bottom: 10px; padding-left: 12px; margin-right: 1px; background: #7d8085; color: #FFF; text-decoration: none; }
+	input[type="text"], input[type="password"], input[type="email"], textarea, select
+	                                        { width: 275px }
+	.videoWrapper                           { position: relative; padding-bottom: 56.25%; /* 16: 9 */; padding-top: 25px; height: 0; margin: 30px; }
+	.view a.info                            { padding-top: 45px!important }
+	/*Parallax1------------------------------------------*/
+	.bg1                                    { width: 100%; height: 100%; margin: 0 auto; position: absolute; background-size: 110%; background-attachment: fixed; background-image: url(../image/parallax/1.jpg); background-repeat: repeat-y; background-position: 50% 50%; }
+	p.parallax-heading                      { font-family: font-family: 'Oswald', sans-serif; font-weight: 700; font-size: 30px; text-transform: uppercase; color: #FFF; text-align: center; margin-bottom: 30px; width: auto; line-height: 1; }
+	p.parallax-quote                        { font-family: font-family: 'Oswald', sans-serif; font-weight: 400; font-size: 26px; line-height: 1; /*margin-bottom: 30px; */ color: white; text-align: center; text-transform: uppercase; width: auto; z-index: 200; margin: 0 10% 0 10%; }
+	p.parallax-author                       { font-family: font-family: 'Oswald', sans-serif; font-weight: 400; background: url(../images/quote.png) left no-repeat; width: auto; font-size: 16px; text-align: center; color: white; text-transform: uppercase; position: relative; margin-top: 20px; z-index: 200; font-style: italic; }
+	/*Parallax2------------------------------------------*/
+	.bg2                                    { background: url(../image/parallax/2.jpg) top center fixed repeat-y; width: 100%; height: 100%; margin: 0 auto; position: absolute; background-size: 120%; }
+	div.twitter-icon                        { padding-bottom: 10px; text-align: center; margin-top: -60px; }
+	/*Parallax3------------------------------------------*/
+	#parallax3 .heading                     { text-align: center; margin-bottom: 50px; font-family: 'Oswald', sans-serif; font-weight: 700; font-size: 40px; color: #FFF; text-transform: uppercase; }
+	.bg3                                    { background: url(../image/parallax/3.jpg) 50% 50% fixed repeat-y; width: 100%; height: 100%; margin: 0 auto; position: absolute; background-size: 110%; }
+	.clients                                { text-align: center }
+	.clients li                             { display: inline; margin: 0 15px 0 15px; height: 50px; opacity: 1; }
+	.clients li:hover                       { opacity: 0.8 }
+	/*Parallax4------------------------------------------*/
+	.bg4                                    { width: 100%; height: 100%; margin: 0 auto; position: absolute; background-size: 110%; background-attachment: fixed; background-image: url(../image/parallax/4.jpg); background-repeat: repeat-y; background-position: 50% 50%; }
+	p.parallax-heading                      { font-family: font-family: 'Oswald', sans-serif; font-weight: 700; font-size: 40px; text-transform: uppercase; color: #FFF; text-align: center; margin-bottom: 20px; width: auto; line-height: 1; }
+	p.parallax-quote                        { font-family: font-family: 'Oswald', sans-serif; font-weight: 400; font-size: 30px; line-height: 1; /*margin-bottom: 30px; */ color: white; text-align: center; text-transform: uppercase; width: auto; z-index: 200; margin: 0 10% 0 10%; }
+	p.parallax-author                       { font-family: font-family: 'Oswald', sans-serif; font-weight: 400; background: url(../images/quote.png) left no-repeat; width: auto; font-size: 26px; text-align: center; color: white; text-transform: uppercase; position: relative; margin-top: 12px; z-index: 200; font-style: italic; }
+	/*Parallax5------------------------------------------*/
+	.bg5                                    { width: 100%; height: 100%; margin: 0 auto; position: absolute; background-size: 110%; background-attachment: fixed; background-image: url(../image/parallax/5.jpg); background-repeat: repeat-y; background-position: 50% 50%; }
+	p.parallax-line1                        { font-family: font-family: 'Oswald', sans-serif; font-weight: 700; font-size: 40px; text-transform: uppercase; color: #FFF; line-height: 1; margin-bottom: 20px; width: auto; float: left; }
+	p.parallax-line2                        { font-family: font-family: 'Oswald', sans-serif; font-weight: 400; font-size: 30px; line-height: 1; /*margin-bottom: 30px; */ color: white; text-transform: uppercase; width: auto; z-index: 200; float: left; }
+	.videoWrapper                           { position: relative; padding-bottom: 56.25%; /* 16: 9 */; padding-top: 25px; height: 0; margin: 30px; }
+	.featurette-heading                     { padding-top: 20px }
+}
+/*------------------------------------------------------------------------- Media Queries Ends-------------*/
+@media (-Webkit-min-device-pixel-ratio:1.5), (-moz-min-device-pixel-ratio:1.5), (-o-min-device-pixel-ratio:3/2), (min-device-pixel-ratio:1.5), (min-resolution:1.5dppx)                             { 
+	.ch-img-1        { background-image: url(../../image/social-icons/facebook_active@2x.png) }
+	.ch-img-2        { background-image: url(../../image/social-icons/in_active@2x.png) }
+	.ch-img-3        { background-image: url(../../image/social-icons/twitter02_active@2x.png) }
+	.ch-img-4        { background-image: url(../../image/social-icons/dribbble_active@2x.png) }
+	.ch-img-5        { background-image: url(../../image/social-icons/youtube_active@2x.png) }
+	.white-bg                               { background-color: #FFF!important; }
+	.black-bg                               { background-color: #000000!important; }
+	.yellow-bg                              { background-color: #7d8085!important; }
+	.light-grey-bg                          { background-color: #e8e8e8!important; }
+	.black-fade                             { background: rgb(0, 0, 0)!important; background: rgba(0, 0, 0, 0.9)!important; }
+	.white-fade                             { background: rgb(256, 256, 256)!important; background: rgba(256, 256, 256, 0.9)!important; }
+	/*---------Light Textures 1 Starts-------------*/
+	.light-texture-1 { background-image: url(../image/textures/squairy_light_@2X.png)!important; background-repeat: repeat!important; }
+	/*---------Light Textures 1 Ends-------------*/
+	/*---------Light Textures 2 Starts-------------*/
+	.light-texture-2 { background-image: url(../image/textures/cream_pixels_@2X.png)!important; background-repeat: repeat!important; }
+	/*---------Light Textures 2 Ends-------------*/
+	/*---------Light Textures 3 Starts-------------*/
+	.light-texture-3 { background-image: url(../image/textures/subtle_white_feathers_@2X.png)!important; background-repeat: repeat!important; }
+	/*---------Light Textures 3 Ends-------------*/
+	/*---------Dark Textures 1 Starts-------------*/
+	.dark-texture-1  { background-image: url(../image/textures/simple_dashed_@2X.png); background-repeat: repeat; color: #fff; }
+	/*---------Dark Textures 1 Ends-------------*/
+	/*---------Dark Textures 2 Starts-------------*/
+	.dark-texture-2  { background-image: url(../image/textures/dark_dotted2_@2X.png); background-repeat: repeat; color: #fff; }
+	/*---------Dark Textures 2 Ends-------------*/
+	/*---------Dark Textures 3 Starts-------------*/
+	.dark-texture-3  { background-image: url(../image/textures/blackorchid_@2X.png); background-repeat: repeat; color: #fff; }
+	/*---------Dark Textures 3 Ends-------------*/
+	/*---------Dark Textures 4 Starts-------------*/
+	.dark-texture-4  { background-image: url(../image/textures/twinkle_twinkle_@2X.png); background-repeat: repeat; color: #fff; }
+	/*---------Dark Textures 4 Ends-------------*/
+}
